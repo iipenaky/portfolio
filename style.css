@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color:black;
+}
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('IMG_20211103_100351_476.jpg') no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.heading{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: scale(1, 1.3);
+}
+
+/* Abbout Me Section */
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    height: 500px;  
+    background-color: rgba(23, 32, 160, 0.5);  
+}
+#aboutme h1{
+    margin: 55px;
+    color: black;
+}
+.headings{
+    color: black;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: scale(1, 1.3);
+}
+.aboutme{
+    display: flex;
+}
+.aboutme img{
+    width: 500px;
+    height: 400px;
+    padding: 0px, 30px;
+}
+.name{
+    padding: 60px;
+}
+.name h2{
+    font-size: xx-large;
+}
+.name p{
+    font-style: oblique;
+    font-size: x-large;
+}
+
+/*Services Section*/
+#services{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(10, 19, 71, 0.188);     
+    width: 100%;
+}
+#services h1{
+        margin: 0px;
+}  
+.columns{
+    display: -moz-grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+    padding: 20px;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+.title{
+    font-size: 30px;
+    color: black;
+    font-style: oblique;
+    text-align: center;
+    
+}
+
+/*Contact Section*/
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color:blue;
+    width: 100;
+}
+#contact h1{
+    margin: 60px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin: 15px;
+    padding: 15px 20px;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 10px;s
+}
+
+#submit{
+  padding: 15px 20px;
+  margin: 30px;
+  width: 15%;
+}
+
+
+  
